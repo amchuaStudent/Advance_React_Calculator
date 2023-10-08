@@ -71,7 +71,7 @@ class App extends Component {
     if (this.state.toggleNum === "1" && con !== "±"){
       this.setState({num1: this.state.num1 + con});
     }
-    if (this.state.toggleNum === "2" && con !== "+" && con !== "-" && con !== "/" && con !== "X" && con !== "±"){
+    if (this.state.toggleNum === "2" && con !== "+" && con !== "-" && con !== "/" && con !== "X" && con !== "±" && con !== "%" && con !== "^"){
       this.setState({num2: this.state.num2 + con});
     }
   }
